@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_top"
+            android:title="Top News" />
+        <item
+            android:id="@+id/id_business"
+            android:title="Business" />
+
+        <item
+            android:id="@+id/id_entertainment"
+            android:title="Entertainment" />
+
+
+        <item
+            android:id="@+id/id_lifestyle"
+            android:title="Lifestyle" />
+
+        <item
+            android:id="@+id/id_sports"
+            android:title="Sports" />
+
+
+        <item
+            android:id="@+id/id_tech"
+            android:title="Technology" />
+    </group>
+
+</menu>
