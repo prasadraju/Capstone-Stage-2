@@ -10,4 +10,11 @@
 
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
 
+    <string name="top_news">Top News</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="lifestyle">Lifestyle</string>
+    <string name="sports">Sports</string>
+    <string name="technology">Technology</string>
+
 </resources>

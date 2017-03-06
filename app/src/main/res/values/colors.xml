@@ -10,4 +10,5 @@
     <color name="movieTitleBg">#009788</color>
 
     <color name="black">#000000</color>
+    <color name="widget_bg">#bbDEDFDE</color>
 </resources>

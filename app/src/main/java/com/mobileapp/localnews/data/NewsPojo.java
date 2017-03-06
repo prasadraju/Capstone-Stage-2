@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Venkatesh on 2/25/2017.
  */
 
-public class NewsPojo {
+public class NewsPojo implements  Serializable{
 
 
     List<Inner> articles;

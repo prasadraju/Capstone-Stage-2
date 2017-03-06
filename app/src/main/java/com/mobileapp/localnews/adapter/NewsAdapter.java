@@ -28,17 +28,9 @@ public class NewsAdapter extends BaseAdapter {
 		TextView movieTitle;
 	}
 
-//	public NewsAdapter(Context context, List<NewsPojo.Inner> moviePosterList) {
-//
-//		this.moviePosterList=moviePosterList;
-//		this.context = context;
-//
-//
-//	}
 
 	public NewsAdapter(Context context) {
 
-//		this.list=list;
 		list=new ArrayList<NewsPojo.Inner>();
 		this.context = context;
 
@@ -47,8 +39,10 @@ public class NewsAdapter extends BaseAdapter {
 
 	public void refresh(List<NewsPojo.Inner> list){
 
-		this.list=list;
-		notifyDataSetChanged();
+		if(list!=null){
+			this.list=list;
+			notifyDataSetChanged();
+		}
 
 	}
 

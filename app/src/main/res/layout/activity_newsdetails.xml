@@ -12,9 +12,9 @@
         android:id="@+id/poster_icon"
         android:layout_width="match_parent"
         android:layout_height="200dip"
-        android:layout_marginLeft="8dip"
-        android:layout_marginRight="8dip"
-        android:layout_marginTop="16dip"
+        android:layout_marginLeft="@dimen/margin_8"
+        android:layout_marginRight="@dimen/margin_8"
+        android:layout_marginTop="@dimen/margin_16"
         android:background="@drawable/placeholder"
         android:contentDescription="@null"
         android:scaleType="fitXY" />
@@ -25,12 +25,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/poster_icon"
-        android:layout_marginBottom="8dip"
-        android:paddingLeft="16dip"
-        android:paddingTop="48dip"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:paddingLeft="@dimen/margin_16"
+        android:paddingTop="@dimen/margin_48"
         android:text="@string/hello_world"
         android:textColor="@color/white"
-        android:textSize="18sp" />
+        android:textSize="@dimen/txt_size" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -41,9 +41,9 @@
             android:id="@+id/desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dip"
-            android:padding="8dip"
-            android:text="Desc : " />
+            android:layout_marginTop="@dimen/margin_16"
+            android:padding="@dimen/margin_8"
+             />
 
     </ScrollView>
 

@@ -4,28 +4,28 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/id_top"
-            android:title="Top News" />
+            android:title="@string/top_news" />
         <item
             android:id="@+id/id_business"
-            android:title="Business" />
+            android:title="@string/business" />
 
         <item
             android:id="@+id/id_entertainment"
-            android:title="Entertainment" />
+            android:title="@string/entertainment" />
 
 
         <item
             android:id="@+id/id_lifestyle"
-            android:title="Lifestyle" />
+            android:title="@string/lifestyle" />
 
         <item
             android:id="@+id/id_sports"
-            android:title="Sports" />
+            android:title="@string/sports" />
 
 
         <item
             android:id="@+id/id_tech"
-            android:title="Technology" />
+            android:title="@string/technology" />
     </group>
 
 </menu>
